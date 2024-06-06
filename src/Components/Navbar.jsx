@@ -98,6 +98,20 @@ const Navbar = () => {
           No products in the cart
         </h1>
       </div>
+      <div
+        className={`fixed top-0 right-0 w-[40%] h-full bg-[#faf9f9] transition-all duration-700 ${
+          cart ? "translate-y-0" : "translate-x-full"
+        }`}
+      >
+        <RxCross2
+          className="absolute right-4 mt-4"
+          size={33}
+          onClick={handleCart}
+        />
+        <h1 className="px-6 pt-12 text-grey text-[16px] font-semibold">
+          No products in the cart
+        </h1>
+      </div>
     </div>
   );
 };
