@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-[#0F0E0E] h-24 relative">
-      <div className="max-w-[1540px] mx-auto flex justify-between items-center h-full px-10 text-[#FFFFFF] sticky top-0 ">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center h-full px-10 text-[#FFFFFF] sticky top-0 ">
         <div>
           <img src={Logo} alt="" className="min-w-[80px]" />
         </div>
@@ -83,20 +83,6 @@ const Navbar = () => {
             </ul>
           </nav>
         </div>
-      </div>
-      <div
-        className={`fixed top-0 right-0 w-[40%] h-full bg-[#faf9f9] transition-all duration-700 ${
-          cart ? "translate-y-0" : "translate-x-full"
-        }`}
-      >
-        <RxCross2
-          className="absolute right-4 mt-4"
-          size={33}
-          onClick={handleCart}
-        />
-        <h1 className="px-6 pt-12 text-grey text-[16px] font-semibold">
-          No products in the cart
-        </h1>
       </div>
       <div
         className={`fixed top-0 right-0 w-[40%] h-full bg-[#faf9f9] transition-all duration-700 ${
