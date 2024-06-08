@@ -28,6 +28,7 @@ const Home = () => {
           </div>
           <div className="bg-blue-300 p-6">
             <img src={HomeImg} alt="" />
+            <img src={HomeImg} alt="" />{" "}
           </div>
         </div>
       </div>
