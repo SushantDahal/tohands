@@ -17,14 +17,14 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full bg-[#0F0E0E] h-24 relative">
+    <div className="w-full bg-[#0F0E0E] h-20 relative">
       <div className="max-w-[1440px] mx-auto flex justify-between items-center h-full px-10 text-[#FFFFFF] sticky top-0 ">
         <div>
-          <img src={Logo} alt="" className="min-w-[80px]" />
+          <img src={Logo} alt="" className="w-[100px]" />
         </div>
         <div>
           <nav>
-            <ul className="lg:flex hidden">
+            <ul className="lg:flex hidden text-white">
               <li className="px-4 font-semibold text-[16px]">Home</li>
               <li className="px-4 font-semibold text-[16px]">Products</li>
               <li className="px-4 font-semibold text-[16px]">Accessories</li>
