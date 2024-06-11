@@ -11,3 +11,15 @@
 body {
   color: #0f0e0e;
 }
+.calculate-container {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: white;
+}
+
+.bill-container {
+  position: relative;
+  z-index: 20;
+  /* Adjust as needed to control overlap */
+}
