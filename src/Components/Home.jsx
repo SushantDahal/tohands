@@ -7,7 +7,7 @@ import { GoShieldCheck } from "react-icons/go";
 import { TbTruckDelivery } from "react-icons/tb";
 const Home = () => {
   return (
-    <div className="w-full  ">
+    <div className="w-full pt-[100px] ">
       <div className="grid md:grid-cols-12 mx-auto md:mx-0">
         <div className=" md:col-span-2 col-span-9 flex justify-center md:justify-start  md:items-start items-center md:flex-row my-4 p-2 md:p-0 md:m-0">
           <img src={Shark} alt="" className=" min-w-[130px]" />

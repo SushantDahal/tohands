@@ -1,54 +1,46 @@
-import Calculate from "../assets/Calculate.webp";
+import record from "../assets/Record.webp";
 import { SiRocket } from "react-icons/si";
-import f1 from "../assets/f1.webp";
-import f2 from "../assets/f2.webp";
-import f3 from "../assets/f3.webp";
+import Pay from "../assets/Gpay.webp";
 
-const calculate = () => {
+const Record = () => {
   return (
     <div className="w-full my-10 ">
       <div className="max-w-[1240px] mx-auto">
-        <h1 className="text-center py-20 md:text-[54px] text-[40px] font-bold">
-          Why Smart Calculator
-        </h1>
         <div className="grid md:grid-cols-2 gap-10 max-w-[1050px] mx-auto bg-[#edf3e8] p-2 rounded-[30px] ">
           <div className=" pt-14 pl-12">
-            <h1 className="text-5xl font-semibold">Calculate</h1>
+            <h1 className="text-5xl font-semibold">Record</h1>
             <div className="flex flex-col pt-8 gap-4">
               <div className="flex items-center gap-3 text-[#535B62]">
                 <SiRocket size={20} />
                 <small className="text-[20px] font-sans">
-                  Larger buttons for quick calculations.
+                  Record sales and expenses.
                 </small>
               </div>
               <div className="flex items-center gap-3 text-[#535B62]">
                 <SiRocket size={20} />
                 <small className="text-[20px] font-sans">
-                  4.5" color display for clarity.
+                  Record customer details: name, number, remark.
                 </small>
               </div>
               <div className="flex items-center gap-3 text-[#535B62]">
                 <SiRocket size={20} />
                 <small className="text-[20px] font-sans">
-                  Portable and easy to handle.
+                  Record payment type: Cash, Udhaar, UPI.
                 </small>
               </div>
             </div>
-            <div className="text-[#535B62] pt-10 mt-6">
-              <h1 className="pt-4 pb-2">Featured in</h1>
-              <div className="grid  sm:grid-cols-3 grid-cols-2 gap-6 items-center">
-                <img src={f1} alt="" />
-                <img src={f2} alt="" />
-                <img src={f3} alt="" />
+            <div className="text-[#535B62] pt-10 mt-10">
+              <div className="">
+                <img src={Pay} alt="" className="w-full pr-20" />
               </div>
             </div>
           </div>
           <div className="">
-            <img src={Calculate} alt="" className=" mx-auto" />
+            <img src={record} alt="" className=" mx-auto" />
           </div>
         </div>
       </div>
     </div>
   );
 };
-export default calculate;
+export default Record;
