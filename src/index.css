@@ -19,7 +19,30 @@ body {
 }
 
 .bill-container {
-  position: relative;
-  z-index: 20;
+  position: sticky;
+  top: 30%;
+
   /* Adjust as needed to control overlap */
+}
+
+.payment-container {
+  position: sticky;
+  top: 30%;
+
+  z-index: 10;
+}
+.record-container {
+  position: sticky;
+  top: 30%;
+  z-index: 20;
+}
+.sync-container {
+  position: sticky;
+  top: 30%;
+  z-index: 30;
+}
+.sound-container {
+  position: sticky;
+  top: 0;
+  z-index: 40;
 }

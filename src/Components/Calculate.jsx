@@ -1,18 +1,18 @@
-import Calculate from "../assets/Calculate.webp";
+import calculate from "../assets/Calculate.webp";
 import { SiRocket } from "react-icons/si";
 import f1 from "../assets/f1.webp";
 import f2 from "../assets/f2.webp";
 import f3 from "../assets/f3.webp";
 
-const calculate = () => {
+const Calculate = () => {
   return (
-    <div className="w-full my-10 ">
+    <div className="w-full my-10 calculate-container">
       <div className="max-w-[1240px] mx-auto">
         <h1 className="text-center py-20 md:text-[54px] text-[40px] font-bold">
           Why Smart Calculator
         </h1>
         <div className="grid md:grid-cols-2 gap-10 max-w-[1050px] mx-auto bg-[#edf3e8] p-2 rounded-[30px] ">
-          <div className=" pt-14 pl-12">
+          <div className="pt-14 pl-12">
             <h1 className="text-5xl font-semibold">Calculate</h1>
             <div className="flex flex-col pt-8 gap-4">
               <div className="flex items-center gap-3 text-[#535B62]">
@@ -36,7 +36,7 @@ const calculate = () => {
             </div>
             <div className="text-[#535B62] pt-10 mt-6">
               <h1 className="pt-4 pb-2">Featured in</h1>
-              <div className="grid  sm:grid-cols-3 grid-cols-2 gap-6 items-center">
+              <div className="grid sm:grid-cols-3 grid-cols-2 gap-6 items-center">
                 <img src={f1} alt="" />
                 <img src={f2} alt="" />
                 <img src={f3} alt="" />
@@ -44,11 +44,12 @@ const calculate = () => {
             </div>
           </div>
           <div className="">
-            <img src={Calculate} alt="" className=" mx-auto" />
+            <img src={calculate} alt="" className="mx-auto" />
           </div>
         </div>
       </div>
     </div>
   );
 };
-export default calculate;
+
+export default Calculate;

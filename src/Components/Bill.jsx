@@ -4,10 +4,10 @@ import India from "../assets/Made-in-India.webp";
 
 const Bill = () => {
   return (
-    <div className="w-full ">
+    <div className="w-full bill-container">
       <div className="max-w-[1240px] mx-auto">
         <div className="grid md:grid-cols-2 gap-10 max-w-[1050px] mx-auto bg-[#1e1f1e] p-2 rounded-[30px]">
-          <div className=" pt-14 pl-12">
+          <div className="pt-14 pl-12">
             <h1 className="text-5xl font-semibold text-white">Bill</h1>
             <div className="flex flex-col pt-8 gap-4 text-[#ffffff]">
               <div className="flex items-center gap-3 ">
@@ -37,7 +37,7 @@ const Bill = () => {
             <img
               src={Bills}
               alt=""
-              className="max-w-[500px] mx-auto shadow-[#81f181] shadow-2xl rounded-3xl rounded-ss-[60px]"
+              className="mx-auto shadow-[#81f181] shadow-2xl rounded-3xl rounded-ss-[60px]"
             />
           </div>
         </div>
@@ -45,4 +45,5 @@ const Bill = () => {
     </div>
   );
 };
+
 export default Bill;
