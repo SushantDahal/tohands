@@ -3,7 +3,7 @@ import { SiRocket } from "react-icons/si";
 
 const Sound = () => {
   return (
-    <div className="w-full my-10 sound-container ">
+    <div className="w-full mt-10 sound-container p-[100px]">
       <div className="max-w-[1240px] mx-auto">
         <div className="grid md:grid-cols-2 gap-10 max-w-[1050px] mx-auto bg-[#edf3e8] p-2 rounded-[30px] ">
           <div className=" pt-14 pl-12">
@@ -24,8 +24,8 @@ const Sound = () => {
               </div>
             </div>
           </div>
-          <div className="">
-            <img src={sound} alt="" className=" mx-auto" />
+          <div className=" m-2">
+            <img src={sound} alt="" className="  mx-auto" />
           </div>
         </div>
       </div>
