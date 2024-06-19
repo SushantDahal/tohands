@@ -13,7 +13,7 @@ body {
 }
 .calculate-container {
   position: sticky;
-  top: 0;
+  top: 25%;
   z-index: 10;
   background: white;
 }
@@ -43,6 +43,12 @@ body {
 }
 .sound-container {
   position: sticky;
-
+  top: 25%;
   z-index: 50;
+}
+
+.sync2-container {
+  position: sticky;
+  top: 15%;
+  z-index: 60;
 }

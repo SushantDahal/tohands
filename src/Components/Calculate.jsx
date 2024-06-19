@@ -7,10 +7,7 @@ import f3 from "../assets/f3.webp";
 const Calculate = () => {
   return (
     <div className="w-full my-10 calculate-container">
-      <div className="max-w-[1240px] mx-auto">
-        <h1 className="text-center py-20 md:text-[54px] text-[40px] font-bold">
-          Why Smart Calculator
-        </h1>
+      <div className="max-w-[1240px] mx-auto min-w-[540px] px-4">
         <div className="grid md:grid-cols-2 gap-10 max-w-[1050px] mx-auto bg-[#edf3e8] p-2 rounded-[30px] ">
           <div className="pt-14 pl-12">
             <h1 className="text-5xl font-semibold">Calculate</h1>

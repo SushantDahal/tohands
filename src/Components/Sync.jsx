@@ -4,8 +4,8 @@ import India from "../assets/Made-in-India-1.webp";
 
 const Sync = () => {
   return (
-    <div className="w-full mt-10 sync-container">
-      <div className="max-w-[1240px] mx-auto">
+    <div className="w-full  sync-container">
+      <div className="max-w-[1240px] mx-auto min-w-[540px] px-4">
         <div className="grid md:grid-cols-2 gap-10 max-w-[1050px] mx-auto bg-[#1e1f1e] p-2 rounded-[30px]">
           <div className=" pt-14 pl-12">
             <h1 className="text-5xl font-semibold text-white">Sync</h1>
