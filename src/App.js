@@ -8,25 +8,23 @@ import Payment from "./Components/Payment.jsx";
 import Sync from "./Components/Sync.jsx";
 import Sound from "./Components/Sound.jsx";
 import Feature from "./Components/Feature.jsx";
-import Sync2 from "./Components/Sync2.jsx";
+
 function App() {
   return (
-    <div className="App bg-red-300">
+    <div>
       <Navbar />
       <Home />
       <Video />
-      <h1 className="text-center py-20 md:text-[54px] text-[40px] font-bold">
-        Why Smart Calculator
-      </h1>
-      <div className="bg-blue-400">
+
+      <div>
         <Calculate />
         <Bill />
         <Payment />
         <Record />
         <Sync />
         <Sound />
-        <Sync2 />
       </div>
+      <Feature />
     </div>
   );
 }

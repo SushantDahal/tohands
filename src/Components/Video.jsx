@@ -12,6 +12,9 @@ const Video = () => {
           allowfullscreen
         ></iframe>
       </div>
+      <h1 className="text-center py-20 md:text-[54px] mt-20 text-[40px] font-bold">
+        Why Smart Calculator
+      </h1>
     </div>
   );
 };
