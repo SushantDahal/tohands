@@ -7,7 +7,7 @@ import f6 from "../assets/Speaker-Green.webp";
 
 const Feature = () => {
   return (
-    <div className="w-full my-10 z-50">
+    <div className="w-full my-10 z-50 min-w-[540px]">
       <div className="max-w-[1240px] mx-auto  text-5xl">
         <h1 className="text-[70px] py-10 text-[#60a02b] text-center font-bold">
           Features

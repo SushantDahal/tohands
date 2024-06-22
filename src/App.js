@@ -8,6 +8,7 @@ import Payment from "./Components/Payment.jsx";
 import Sync from "./Components/Sync.jsx";
 import Sound from "./Components/Sound.jsx";
 import Feature from "./Components/Feature.jsx";
+import Track from "./Components/Track.jsx";
 
 function App() {
   return (
@@ -15,7 +16,6 @@ function App() {
       <Navbar />
       <Home />
       <Video />
-
       <div>
         <Calculate />
         <Bill />
@@ -25,6 +25,7 @@ function App() {
         <Sound />
       </div>
       <Feature />
+      <Track />
     </div>
   );
 }
