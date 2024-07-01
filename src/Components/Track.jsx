@@ -10,9 +10,13 @@ const Track = () => {
   return (
     <div className=" w-full min-w-[540px] py-10">
       <div className="max-w-[1240px]  mx-auto p-4">
-        <div className="grid md:grid-cols-5 gap-6 ">
-          <div className="col-span-3">
-            <h1 className="md:text-[60px] text-[45px] md:leading-[70px]  font-bold">
+        <h1 className="md:text-[60px] text-[45px] md:leading-[70px]  font-bold md:hidden flex justify-center text-center ">
+          Track transactions <br />
+          with Tohands App
+        </h1>
+        <div className="grid md:grid-cols-5 gap-6  ">
+          <div className="col-span-3 order-2 md:order-1">
+            <h1 className="md:text-[60px] text-[45px] md:leading-[70px]  font-bold md:flex hidden">
               Track transactions <br />
               with Tohands App
             </h1>
@@ -69,14 +73,14 @@ const Track = () => {
                   </h3>
                 </div>
               </div>
-              <div className="flex  py-4 gap-6">
+              <div className="flex  py-4 gap-6 ">
                 <img src={Google} alt="" className="w-[200px]" />
                 <img src={Appstore} alt="" className="w-[200px]" />
               </div>
             </div>
             {/* End */}
           </div>
-          <div className=" col-span-2">
+          <div className=" md:col-span-2 col-span-5 bg-[#edf3e8] md:p-10 p-20 rounded-3xl order-1 md:order-2">
             <img src={TrackImg} alt="" />
           </div>
         </div>

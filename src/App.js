@@ -9,6 +9,7 @@ import Sync from "./Components/Sync.jsx";
 import Sound from "./Components/Sound.jsx";
 import Feature from "./Components/Feature.jsx";
 import Track from "./Components/Track.jsx";
+import Featured_on from "./Components/Featuredon.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </div>
       <Feature />
       <Track />
+      <Featured_on />
     </div>
   );
 }

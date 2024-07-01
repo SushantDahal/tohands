@@ -1,6 +1,7 @@
 import sync from "../assets/Sync.webp";
 import { SiRocket } from "react-icons/si";
 import India from "../assets/Made-in-India-1.webp";
+import { FaArrowsRotate } from "react-icons/fa6";
 
 const Sync = () => {
   return (
@@ -34,6 +35,10 @@ const Sync = () => {
             </div>
           </div>
           <div className="">
+            <FaArrowsRotate
+              size={40}
+              className="text-[grey] relative left-[35%] top-[31.8%] animate-spin"
+            />
             <img src={sync} alt="" className=" mx-auto" />
           </div>
         </div>
